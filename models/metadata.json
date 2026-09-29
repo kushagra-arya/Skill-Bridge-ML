@@ -1,0 +1,63 @@
+{
+  "version": "1.0.0",
+  "trained_at": "2026-09-08T16:40:45.636459+00:00",
+  "random_state": 42,
+  "scikit_learn_version": "1.8.0",
+  "records": {
+    "classification": 5000,
+    "regression": 4303
+  },
+  "algorithms": {
+    "classification": "LogisticRegression",
+    "regression": "Ridge"
+  },
+  "model_features": [
+    "cgpa",
+    "backlogs",
+    "coding_skill_rating",
+    "communication_skill_rating",
+    "aptitude_skill_rating",
+    "internships_completed",
+    "hackathons_participated",
+    "certifications_count",
+    "study_hours_per_day",
+    "attendance_percentage",
+    "sleep_hours",
+    "stress_level",
+    "gender",
+    "part_time_job",
+    "internet_access",
+    "branch",
+    "family_income_level",
+    "city_tier",
+    "extracurricular_involvement"
+  ],
+  "dropped_correlated_features": [
+    "tenth_percentage",
+    "twelfth_percentage",
+    "projects_completed"
+  ],
+  "salary_bounds_lpa": [
+    5.18,
+    20.0
+  ],
+  "classification_metrics": {
+    "accuracy": 0.8306666666666667,
+    "precision": 0.9658273381294964,
+    "recall": 0.8325581395348837,
+    "f1": 0.8942547876769359,
+    "roc_auc": 0.9058250276854928,
+    "average_precision": 0.9835598528533503,
+    "true_negatives": 86,
+    "false_positives": 19,
+    "false_negatives": 108,
+    "true_positives": 537
+  },
+  "regression_metrics": {
+    "rmse": 1.4113564360975828,
+    "mae": 1.1435213857819961,
+    "r2": 0.7743294580945035,
+    "within_1_lpa": 50.0,
+    "within_2_lpa": 84.05572755417957
+  }
+}
