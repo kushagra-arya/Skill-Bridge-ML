@@ -130,8 +130,6 @@ Open the development URL printed by the Next.js server once it is ready.
 | `ALLOWED_ORIGINS` | Development frontend origin | Comma-separated origins allowed by CORS |
 | `NEXT_PUBLIC_API_URL` | Running API origin | API base URL used by the frontend |
 
-The frontend example is in [`frontend/.env.example`](frontend/.env.example). The API reads
-its configuration from the environment rather than a committed env file.
 
 ## API surface
 
